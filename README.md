@@ -1,18 +1,19 @@
-# 📝 Minimal Todo
-[Website](https://semicoltodo.netlify.app/) 
+# 📝 Minimal Todo  
+[Website](https://semicoltodo.netlify.app/)  
 
-A clean, dark-themed todo list web app with essential functionality and minimalist design.
-
+A clean, theme-switchable todo list web app with essential functionality and minimalist design.
 
 ## Features
 
-- Dark theme
-- Add/delete tasks with keyboard input
-- Persistent local storage (tasks saved in browser)
-- Minimalist UI with monospace typography
-- Responsive design
+- **Theme Toggle** - Switch between dark/light modes with persistent browser storage
+- Add/delete tasks with keyboard input  
+- Persistent local storage (tasks and theme preference saved in browser)
+- Minimalist UI with monospace typography  
+- Responsive design  
 
-## Getting Started
+
+## Getting Started  
+
 
 1. Clone the repository:
 ```bash
