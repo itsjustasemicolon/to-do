@@ -1,24 +1,40 @@
-<!DOCTYPE html><html><head>
-<meta charset="utf-8">
-    <title>minimalist to-do</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>minimalist to-do</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
   <div class="todo-container">
     <div class="title box">to-do</div>
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">☾</button>
     
     <div class="input-container">
-      <input type="text" class="box" placeholder="new task">
+      <input 
+        type="text" 
+        class="box" 
+        placeholder="new task"
+        aria-label="Enter new task"
+      >
     </div>
 
-    <div class="todo-list" id="todoList"></div>
+    <div class="todo-list" id="todoList" role="list"></div>
 
-    <div class="stats box">0/0 tasks completed</div>
-    <div class="clear-button box">[ clear all ]</div>
+    <div class="stats box" aria-live="polite">
+      <span id="taskCount">0</span>/<span id="totalTasks">0</span> tasks completed
+    </div>
+    
+    <div 
+      class="clear-button box" 
+      role="button" 
+      tabindex="0"
+      aria-label="Clear all tasks"
+    >[ clear all ]</div>
   </div>
 
   <script src="js/script.js"></script>
-
-
-</body></html>
+</body>
+</html>
