@@ -53,7 +53,7 @@ body {
   padding: 20px;
   min-width: 300px;
   max-width: 500px;
-  width: 90%;
+  width: 30%;
 }
 
 .title {
@@ -76,7 +76,7 @@ input[type="text"] {
   background: var(--input-bg);
   color: var(--text-color);
   outline: none;
-  font-size: 16px; /* Prevent mobile zoom */
+  font-size: 14px; /* Prevent mobile zoom */
   border-radius: 4px;
   transition: border-color 0.2s ease;
 }
