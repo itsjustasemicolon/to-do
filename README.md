@@ -1,8 +1,8 @@
 # 📝 Minimal Todo
+[Website](https://semicoltodo.netlify.app/) 
 
 A clean, dark-themed todo list web app with essential functionality and minimalist design.
 
-[Website](https://semicoltodo.netlify.app/) 
 
 ## Features
 
